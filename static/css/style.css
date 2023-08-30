@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the legend title */
+.legend-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Style for each legend item */
+.legend-item {
+  padding: 4px;
+  margin: 2px 0;
+  border-radius: 3px;
+  color: white; /* Set text color to contrast the background */
+}
